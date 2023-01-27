@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Custom">
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:text="Customize"
+        android:textColor="#3A047C"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        />
+    <CheckBox
+        android:id="@+id/chkAutosave2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="100dp"
+        android:checked="false"
+        android:textSize="30dp"
+        android:orientation="vertical"
+        android:text="Corn"
+        />
+
+    <CheckBox
+        android:id="@+id/chkAutosave3"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="150dp"
+        android:checked="false"
+        android:orientation="vertical"
+        android:text="Capsicum"
+        android:textSize="30dp" />
+
+    <CheckBox
+        android:id="@+id/chkAutosave4"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="200dp"
+        android:checked="false"
+        android:textSize="30dp"
+        android:orientation="vertical"
+        android:text="Extra Cheese"
+        />
+    <CheckBox
+        android:id="@+id/chkAutosave5"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="250dp"
+        android:checked="false"
+        android:textSize="30dp"
+        android:orientation="vertical"
+        android:text="Mushrooms"
+        />
+    <CheckBox
+        android:id="@+id/chkAutosave6"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="300dp"
+        android:checked="false"
+        android:textSize="30dp"
+        android:orientation="vertical"
+        android:text="Paneer"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="70dp"
+        android:backgroundTint="#D500F9"
+        android:text="Add to cart!"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

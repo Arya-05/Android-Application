@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="135dp"
+        android:text="For dine in click button below "
+        android:textColor="#3A1B60"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#D500F9"
+        android:layout_marginTop="220dp"
+        android:text="Dine in"
+        android:textColor="#300547"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="320dp"
+        android:text="For Home Delivery click button below"
+        android:textColor="#3A047C"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="50dp"
+        android:text="Home Delivery"
+        android:textColor="#3A047C"
+        android:textSize="20dp"
+        android:backgroundTint="#D500F9"
+        />
+
+</RelativeLayout>

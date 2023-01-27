@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Pizza"
+>
+
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:text="PIZZA"
+        android:textColor="#3A047C"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="177dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/pizza1" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:text="Margherita"
+        android:textColor="#3A047C"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cost1"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="135dp"
+        android:text="200Rs."
+        android:textColor="#3A047C"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="165dp"
+        android:text="Mozzarella Cheese,and finely spread herbs,soft crust"
+        android:textColor="#3A047C"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="177dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/pizza2" />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="300dp"
+        android:text="Garden Fresh Veggies"
+        android:textColor="#3A047C"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cost2"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="360dp"
+        android:text="469Rs."
+        android:textColor="#3A047C"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/desc2"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="390dp"
+        android:text="Broccoli, zucchini, red peppers, mozzarella, green pepper"
+        android:textColor="#3A047C"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="177dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="500dp"
+        app:srcCompat="@drawable/pizza3" />
+
+    <TextView
+        android:id="@+id/title4"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="500dp"
+        android:text="Paneer Tikka"
+        android:textColor="#3A047C"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cost3"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="535dp"
+        android:text="560Rs."
+        android:textColor="#3A047C"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/desc3"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="565dp"
+        android:text="Paneer, whole wheat flour, greek yogurt, tandoori masala"
+        android:textColor="#3A047C"
+        android:textSize="15dp" />
+
+</RelativeLayout>
